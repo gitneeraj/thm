@@ -1,0 +1,8 @@
+# Nmap 7.80 scan initiated Thu Sep 10 15:51:00 2020 as: nmap -p 445 -Pn --script=smb-enum-shares.nse,smb-enum-users.nse -oN nmap/smb_scan 10.10.107.79
+Nmap scan report for 10.10.107.79
+Host is up.
+
+PORT    STATE    SERVICE
+445/tcp filtered microsoft-ds
+
+# Nmap done at Thu Sep 10 15:51:02 2020 -- 1 IP address (1 host up) scanned in 2.26 seconds
