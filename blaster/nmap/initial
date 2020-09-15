@@ -1,0 +1,55 @@
+# Nmap 7.80 scan initiated Mon Sep 14 19:45:04 2020 as: nmap -v -sC -sV -oN nmap/initial 10.10.137.242
+Increasing send delay for 10.10.137.242 from 0 to 5 due to 129 out of 428 dropped probes since last increase.
+Increasing send delay for 10.10.137.242 from 10 to 20 due to 26 out of 86 dropped probes since last increase.
+Nmap scan report for 10.10.137.242
+Host is up (0.18s latency).
+Not shown: 994 closed ports
+PORT     STATE SERVICE            VERSION
+80/tcp   open  http               Microsoft IIS httpd 10.0
+| http-methods: 
+|   Supported Methods: OPTIONS TRACE GET HEAD POST
+|_  Potentially risky methods: TRACE
+|_http-server-header: Microsoft-IIS/10.0
+|_http-title: IIS Windows Server
+135/tcp  open  msrpc              Microsoft Windows RPC
+139/tcp  open  netbios-ssn        Microsoft Windows netbios-ssn
+445/tcp  open  microsoft-ds       Microsoft Windows Server 2008 R2 - 2012 microsoft-ds
+3306/tcp open  mysql              MySQL (unauthorized)
+3389/tcp open  ssl/ms-wbt-server?
+| rdp-ntlm-info: 
+|   Target_Name: RETROWEB
+|   NetBIOS_Domain_Name: RETROWEB
+|   NetBIOS_Computer_Name: RETROWEB
+|   DNS_Domain_Name: RetroWeb
+|   DNS_Computer_Name: RetroWeb
+|   Product_Version: 10.0.14393
+|_  System_Time: 2020-09-14T14:17:15+00:00
+| ssl-cert: Subject: commonName=RetroWeb
+| Issuer: commonName=RetroWeb
+| Public Key type: rsa
+| Public Key bits: 2048
+| Signature Algorithm: sha256WithRSAEncryption
+| Not valid before: 2020-05-21T21:44:38
+| Not valid after:  2020-11-20T21:44:38
+| MD5:   dc1a 219e aee5 c428 1a53 5c03 7a4c 9a6f
+|_SHA-1: b359 f8c9 6c31 2619 957a a417 78fa 8347 c1d8 7da7
+|_ssl-date: 2020-09-14T14:17:23+00:00; 0s from scanner time.
+Service Info: OSs: Windows, Windows Server 2008 R2 - 2012; CPE: cpe:/o:microsoft:windows
+
+Host script results:
+|_smb-os-discovery: ERROR: Script execution failed (use -d to debug)
+| smb-security-mode: 
+|   account_used: guest
+|   authentication_level: user
+|   challenge_response: supported
+|_  message_signing: disabled (dangerous, but default)
+| smb2-security-mode: 
+|   2.02: 
+|_    Message signing enabled but not required
+| smb2-time: 
+|   date: 2020-09-14T14:17:16
+|_  start_date: 2020-09-14T14:13:48
+
+Read data files from: /usr/bin/../share/nmap
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Mon Sep 14 19:47:24 2020 -- 1 IP address (1 host up) scanned in 139.93 seconds
