@@ -1,0 +1,15 @@
+===============================================================
+Gobuster v3.1.0
+by OJ Reeves (@TheColonial) & Christian Mehlmauer (@firefart)
+===============================================================
+[+] Url:            http://10.10.137.242/
+[+] Method:         GET
+[+] Threads:        10
+[+] Wordlist:       /opt/wordlists/directory-list-2.3-small.txt
+[+] Status codes:   200,204,301,302,307,401,403
+[+] User Agent:     gobuster/3.1.0
+[+] Timeout:        10s
+===============================================================
+2020/09/14 19:51:44 Starting gobuster in directory enumeration mode
+===============================================================
+/retro (Status: 301)          
