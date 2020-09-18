@@ -1,3 +1,7 @@
+# The find command
+ 
+A learn-by-doing approach to the find command
+
 ## [Task 1] Start finding
 
 ###	Read and follow the instructions.

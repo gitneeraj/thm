@@ -1,3 +1,7 @@
+# The Cod Caper
+ 
+A guided room taking you through infiltrating and exploiting a Linux system.
+
 ## [Task 1] Intro
 ```
 No answer needed
