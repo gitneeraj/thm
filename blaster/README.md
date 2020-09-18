@@ -1,3 +1,6 @@
+# Blaster
+A blast from the past!
+
 ## [Task 1] Mission Start!
 ```
 No answer needed
