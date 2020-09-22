@@ -46,16 +46,16 @@ Eternity22
 
 ### #1 Hash: F09EDCB1FCEFC6DFB23DC3505A882655FF77375ED8AA2D1C13F640FCCC2D0C85
 ```
-paule
+$ hashcat -m 1400 "F09EDCB1FCEFC6DFB23DC3505A882655FF77375ED8AA2D1C13F640FCCC2D0C85" /opt/wordlists/rockyou.txt
 
-NOTE: this is not present in default rockyou wordlist. So I used crackstation.net to decode it online
+paule
 ```
 
 ### #2 Hash: 1DFECA0C002AE40B8619ECF94819CC1B
 ```
-n63umy8lkf4i
+$ hashcat -m 1000 "1DFECA0C002AE40B8619ECF94819CC1B" /opt/wordlists/rockyou.txt
 
-NOTE: this is not present in default rockyou wordlist. So I used crackstation.net to decode it online
+n63umy8lkf4i
 ```
 
 ### #3 Hash: $6$aReallyHardSalt$6WKUTqzq.UQQmrm0p/T7MPpMbGNnzXPMAXi4bJMl9be.cfi3/qxIf.hsGpS41BqMhSrHVXgMpdjS6xeKZAs02.
